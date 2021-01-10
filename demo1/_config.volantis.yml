@@ -1,0 +1,33 @@
+navbar:
+  visiable: auto # always, auto
+  logo: # choose [img] or [icon + title]
+    img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png
+    icon:
+    title:
+  menu:
+    - name: 博客
+      icon: fas fa-rss
+      url: /
+
+custom_css:
+  max_width: 1080px # 
+  font_smoothing: true # fo
+  cursor:
+    enable: true
+    text: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/text.png
+    pointer: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/pointer.png
+    default: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/left_ptr.png
+    not-allowed: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/circle.png
+    zoom-out: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/zoom-out.png
+    zoom-in: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/zoom-in.png
+    grab: https://cdn.jsdelivr.net/gh/inkss/common@master/cursor/openhand.png
+  navbar:
+    height: 64px
+    effect: [shadow, blur] #
+  scrollbar:
+    size: 4px
+    border: 2px
+    color: '#2196f3'
+    hover: '#ff5722'
+  sidebar:
+    effect: [shadow] # 
